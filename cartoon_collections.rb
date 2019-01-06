@@ -18,5 +18,6 @@ def find_the_cheese(ingredients)
   cheese_types = ["cheddar", "gouda", "camembert"]
   ingredients.find do |ingredient|
     cheese_types.include?(ingredient)
+    #check if string includes any cheese.types, return true if so
   end
 end
