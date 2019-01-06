@@ -11,6 +11,7 @@ end
 
 def long_planeteer_calls(calls)
   calls.any? {|word| word.length > 4 }
+  #checks if there are any long names
 end
 
 def find_the_cheese(ingredients)
